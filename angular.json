@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "windows98": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "windows98"
+    }
+  },
+  "defaultProject": "windows98",
+  "cli": {
+    "analytics": "2eb0e537-e1cd-4813-99b4-2e939b01f800"
+  }
 }

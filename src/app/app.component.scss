@@ -1,0 +1,38 @@
+.grid {
+  width: 100vw;
+  height: calc(100vh - 35px);
+  background-color: #258080;
+}
+
+.task-bar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 35px;
+  background-color: #c0c0c0;
+
+  button {
+    height: 29px;
+
+    border-radius: 0;
+    border: 0;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    box-shadow: 2px 2px 0 #252525;
+    background-color: #c0c0c0;
+    outline: none;
+    // padding: auto 0;
+    &:active {
+      font-weight: bold;
+    }
+
+    &.start {
+      display: flex;
+      width: 75px;
+
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+}
